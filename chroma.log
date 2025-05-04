@@ -1,0 +1,87 @@
+[33mWARNING[0m:  [26-03-2025 15:50:21] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-03-2025 15:50:22] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component System
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component SqliteDB
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component Posthog
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-03-2025 15:50:22] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-03-2025 15:50:22] Started server process [[36m18824[0m]
+[32mINFO[0m:     [26-03-2025 15:50:22] Waiting for application startup.
+[32mINFO[0m:     [26-03-2025 15:50:22] Application startup complete.
+[32mINFO[0m:     [26-03-2025 15:50:22] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-03-2025 15:53:18] ::1:52025 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 15:53:18] ::1:52026 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 15:53:18] ::1:52025 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [26-03-2025 15:53:18] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-03-2025 15:53:19] ::1:52026 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/upsert HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 15:53:29] ::1:52033 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-03-2025 16:37:06] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-03-2025 16:37:07] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component System
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component SqliteDB
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component Posthog
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-03-2025 16:37:07] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-03-2025 16:37:07] Started server process [[36m12932[0m]
+[32mINFO[0m:     [26-03-2025 16:37:07] Waiting for application startup.
+[32mINFO[0m:     [26-03-2025 16:37:07] Application startup complete.
+[32mINFO[0m:     [26-03-2025 16:37:07] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-03-2025 17:02:43] ::1:50235 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 17:02:43] ::1:50236 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-03-2025 17:02:43] Collection documents already exists, returning existing collection.
+[32mINFO[0m:     [26-03-2025 17:02:43] ::1:50235 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [26-03-2025 17:02:44] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-03-2025 17:02:44] ::1:50236 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/upsert HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 17:02:51] ::1:50242 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/query HTTP/1.1" 200
+[33mWARNING[0m:  [26-03-2025 17:14:26] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [26-03-2025 17:14:26] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component System
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component SqliteDB
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component Posthog
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component LocalExecutor
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component SegmentAPI
+[36mDEBUG[0m:    [26-03-2025 17:14:26] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [26-03-2025 17:14:27] Started server process [[36m14292[0m]
+[32mINFO[0m:     [26-03-2025 17:14:27] Waiting for application startup.
+[32mINFO[0m:     [26-03-2025 17:14:27] Application startup complete.
+[32mINFO[0m:     [26-03-2025 17:14:27] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [26-03-2025 17:16:06] ::1:50490 - "GET /api/v2/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 17:16:06] ::1:50491 - "GET /api/v2/tenants/default_tenant/databases/default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [26-03-2025 17:16:06] Collection documents already exists, returning existing collection.
+[32mINFO[0m:     [26-03-2025 17:16:06] ::1:50490 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections HTTP/1.1" 200
+[36mDEBUG[0m:    [26-03-2025 17:16:06] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [26-03-2025 17:16:07] ::1:50491 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/query HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 18:04:08] ::1:50733 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/upsert HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 18:04:33] ::1:50741 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/query HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 18:04:51] ::1:50745 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/query HTTP/1.1" 200
+[32mINFO[0m:     [26-03-2025 18:05:06] ::1:50750 - "POST /api/v2/tenants/default_tenant/databases/default_database/collections/301323b2-7270-47ab-98d0-6182dc80b28e/query HTTP/1.1" 200
+[33mWARNING[0m:  [29-03-2025 13:26:36] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [29-03-2025 13:26:37] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component System
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component SqliteDB
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component SimpleQuotaEnforcer
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component Posthog
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component SimpleRateLimitEnforcer
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component LocalExecutor
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component SegmentAPI
+[36mDEBUG[0m:    [29-03-2025 13:26:37] Starting component SimpleAsyncRateLimitEnforcer
+[32mINFO[0m:     [29-03-2025 13:26:37] Started server process [[36m16028[0m]
+[32mINFO[0m:     [29-03-2025 13:26:37] Waiting for application startup.
+[32mINFO[0m:     [29-03-2025 13:26:37] Application startup complete.
+[32mINFO[0m:     [29-03-2025 13:26:37] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
